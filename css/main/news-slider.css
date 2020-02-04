@@ -1,0 +1,52 @@
+.slider {
+    max-width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    color: #f3f3f3;
+  }
+  .slide1,.slide2,.slide3,.slide4,.slide5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .slide1 {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEX///8Ys4gArn/p9fELsoZewqHG6+BgyKoAsIOa28d50LfL7eOf3cs/vplQvpsAqXbqJPSGAAAAyklEQVR4nO3ZOw7CMBBFUQgB8s/+d0tLhQbZaGxxzgIs32qKd7kAAAAAAAAAAAAAAAAAAAAAAAAA8L1bHwoKz6EHZ0HhcO3BoFBh8xQqbJ/CYOHYmsqF07I+2rIuU93CueCV35gVhijMpDBGYSaFMQozKYxRmElhjMJMCmMUZlIYozCTwhiFmWoXbtV+VstWt3Dcn63Zx6qF7Q0zb9OMdU1h+xQqbJ/Cj4XZNy+kpPC49+AoKAQAAAAAAAAAAAAAAAAAAAAAAAD4Xy89OiVHdmW8jQAAAABJRU5ErkJggg==)no-repeat center;
+        background-size: cover;
+      animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+  
+  } 
+  .slide2 {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAACOCAMAAADTsZk7AAAAclBMVEX///8fcMEAY7wNa7+Fqtn1+PxrmNEAaL4AZr3N3O+2zOieu+Df6fXk7PYXbcCvxeRUjMzs8vnY5PIAX7t+ptcAYbwAXLoAWLlIhclWjcxjlM/G1+w4fca8z+n4+/3w9fosd8RyntOjvuKKrdmUtNx3odQ95hEVAAAHD0lEQVR4nO2daXuqMBBGQ1BAa8Fdi3Xprf3/f/G6FAQMbxamTwvM+aqZwKlSmUkG4REQHsU3R0kR75vTNvgcT4SeXeQUP343iP1g4jZLOBZO46phfsbxxYIfSi/YH37GsRfNbRyffadJ/rrjG37kf2EZro79TxvHp9hpklY4vuDL6egHHHueheKR46m1xfHlqiHf6j/Lzo4j9JerMHC7VLTI8dXysu667Ow4/jB37Ki4VY4vVwxvR+zYi4wVO8/RLseeJwfUjvemjj/c/uPdHPvNiaOH4wVBPIB8PyrOfydd44VvhoqHkfMhJyIgIM1PfJhSxENTBcNnAXP3WVNFOBUj5ynSmgscwzAMwzAMw/SUIQXE4SznbDqr1tGhUfiDkASsZ9nRHDcU8UxYpA8Hu0azLgKd47BJ+E3SrpxQEfm4R3XPCd2INLWsUaPwbcu7FYm3ZI7H2PGXa+r4Rpsde/KVyHGsSb41O8xWOw5fiBx70UwtlyR6qx0/LhZNHYf/kOOg0aWi3Y4f0zZ1XLi0P3MIGx5lqx1H2S+Lpo49CVYjjZt+SUhqTb58/D5eU8QznTZbgrJbUUVSsHWuMn3HHosBAcv8VumwpIhnSnYZnTSetd5x4zNaWqzhYBiGYRiGYZieMkG86seXOcBwMOWFh8LBR83QZxSZ+qF1EFMps42Malmh/ImS+aY+WrSCq6zh0ChagFvgZA2HPrN+eQ7ysbCLUai6aZihLEg8NYzyEIXC+V9oqGa7VqjQkpHYpssUO8kO1muOcSa6QGscoxXa1o4Vybe9dcqtg47BljJ7x887yVLr7Hz3HEtQULZ3/LST7GCfDO+cY7gX18FxdSeZS4iuOfbVO3DuOAiqHsvUfptN5xxHaKeFy7XCL117oIa6QzJ2vAjriex/H6NwEjqer8HQEK7vSVZoqJpF6XfKi0sEU8fD8wsgMYySM4Ph4AY5PBQeyRyNNDqYxCHA2XCbFMMwDMMwDMMwBQ4jhFW/ritDGM4RbVFn5hh4Z6AAoGuTlh8eKtNI2lqTIxvtXzqxLBNlrG/Jt71tpSob/RdzQm6ES+2sLjmhK/c2TvbZ+Tt/Mu/mRHzSz+rq+JZ8O7oO7o7jyKDEjh2DzPC1SIgGw6RyZxxLkw490HH8Vm/KT3F2Hmbuu+J4ZZRdhY7DBLwYHWf1hbx4mfbAsTRLYGPH48/6f2ph8q9+bDQHX4GuOJaajbeGjufgozrdAo2CyPE6qq+mOPw+hgUjOyLjLqQJqnAtEnGqP8eo/iU5EFsJDs+41nQYI6xbwh1hOEuMVzROYJiJGLnNPxM7+LrpfR7DMAzDMAzDMA96cQ9yPbDEcvJbYJp7kF7cS1/xwXk+I+9d+2jupXuQE7o7tnsC0/dy5z7kj0lym/cYr3YbPkRvHNPk6O9vQknMKtnOiF44Jqg1ZY5BMv6JbKNaPxw3r5lmji3qz3ktvCeOG9f+M8cW6yj8c78cN17Dkjs2362b7/Qlctz5tViL/N+m6Yotme+33IKmCOZrsXqwpjBXMbeeEI/gWhPDMAzDMAzD2NOD3grFG6kJnOTKuXj3BlsuGPdW6H6PkFIKeqitOJWaOW3R2/9krel3et2Epa/Ahyb5Vm5K1r682+/0bCo71j3zqtxcr1+O3XuPlR1rnpFSmaZfjt176FUcg80h3lNXz545du4FWXE8gfVpWfbWN8euPU0rjsU78FY94Z45du7NW3WM6tPV9xI5Ro8HdekxjR4mqukxDR8VintMg4HrirfZApzwsfze7QoE3pg6Fq8Q0ygZBxhN0ysdHwrqlQ4HVm/HLM4XH5GtHIZhGIZhGIbpHSOCp7wu89um33lmrHixHKh6jutOcehLRRXAdq7BQCSy4XODL0R50uF3nn0stqHlSEUpcKY49LXivs12Lt8X44aPAb/i58uBf+cZ3tZPmajmeWqCKJ+fbv9EizY7fjyencTx8wPRDf8UOlrsuPApI3E8fKqGhEfF23rluJA9JnEsgkqUOFW9q1eO5avzeasd7yoXC3WZpU+Oi/+QaByLysVCKt/UJ8fFnZBEjgclybG6ROPgOMHlHCPW+dEcCaKZsSheLGH9R8FG7bhc2tqolyHZziWlOAwJeKxzoIhmRvG8rQfXLMyon6HBXPwIJ4ZhGIZhGIYpskuDxqR50WdIEA1PFah+0g9so9TvJEluZ5DWr1a0nSsIxJii1vTIVyyaR0PId1VKV0wJak3fjFaaN9jO1bZak6zZZUOUE7pxusYC29K6nXfzvbqvOKXj80WIH9S/3mXHsVzWfrgoHV+bF6Kdf911HMs3sMGG0vG1eWEMXu6qY19OYb9YUsdJ6KPWZp107Ef+l6YZF6njYwgbAHfNceyH0gv22oZepI5F6qFXu+X4tA0+xwatNakd78F2KRfH/wH5Lio5/BKdEQAAAABJRU5ErkJggg==)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+  }
+  .slide3 {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 1}
+    66.666% { opacity: 0 }
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 1}
+    100% { opacity: 0}
+  }
